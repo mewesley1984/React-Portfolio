@@ -1,0 +1,164 @@
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App-content {
+  padding: 2vh;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+footer {
+  padding: 2vh;
+  font-size: 10px;
+}
+
+
+
+
+a {
+  color: white;
+  text-decoration: none;
+  margin-left: 25px;
+  /* increased font on nav selectors */
+  font-size: 24px;
+}
+
+/* Changed main display to flex */
+main {
+  display: flex;
+  justify-content: center;
+  /* added wrapping */
+  flex-wrap: wrap;
+}
+/* Changed section display to flex */
+section {
+  display: flex;
+  flex: auto;
+  margin: 0 auto;
+  justify-content: column;
+  padding: 20px;
+  background-color:rgb(83, 192, 94);
+  font-size: 28px;
+}
+section img {
+  display: block;
+  margin: auto;
+}
+
+section .category {
+  width: 300px;
+  text-align: center;
+}
+
+section .content {
+  display: flex;
+}
+/* added separate selector for profile pic */
+.profile-pic {
+  height: 150px;
+  width: 150px;
+}
+
+section p {
+  text-align: center;
+  font-size: 24px;
+  padding: 20px;
+  background-color:rgb(225, 237, 100);
+}
+/* Condensed .card properties */
+.card {
+  background-size: cover;
+  height: 250px;
+  width: 250px;
+}
+
+.content a:hover {
+  filter: grayscale();
+}
+/* broke out each image into it's own selector.  wrapped div with a attribute and fixed bug */
+.gigpub2{
+  background-image: url("images/gigpub-page.png");
+}
+.gigpub {
+  background-image: url("images/gigpub-page.png");
+}
+
+.prework {
+  background-image: url("images/pacific-ocean.jpeg");
+}
+
+.mini {
+  background-image: url("images/nyc-image.jpeg");
+}
+
+.card a img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  list-style-type: none;
+  object-position: center;
+
+}
+/* increased font size on card headers */
+.card h3 {
+  font-size: 24px;
+  color: white;
+  text-align:center;
+}
+
+.content ul {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  list-style-type: none;
+  font-size: 30px;
+}
+
+.content ul li {
+  justify-content: space-between;
+}
+#phone {
+  color:white;
+}
+
+section h2 {
+  width: 300px;
+}
+.category .work {
+  align-items: center;
+}
+.work {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+footer {
+  text-align:center;
+  padding: 50px;
+  background-color:rgb(225, 237, 100);
+  font-size: 28px;
+  color: white;
+}
+
+/* changed max-width from 780 to 860 */
+@media screen and (max-width:860px) {
+  section  {
+      flex-wrap: wrap;
+  }
+  header, section {
+      justify-content: center;
+  }
+  .category {
+      flex-direction: column;
+  }
+  .content ul {
+      font-size: 20px;
+  }
+}
