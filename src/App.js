@@ -57,6 +57,7 @@ function App() {
       </div>
       <footer>
 
+        <a href ="mailto: meugenewesley@gmail.com">Email</a>
         <a href="https://github.com/mewesley1984" >Follow Me on GitHub</a> | 
         <a href="https://www.linkedin.com"> Follow Me on LinkedIn</a> | 
         <a href="https://www.twitter.com">Follow Me on Twitter</a>
